@@ -1,0 +1,8 @@
+.calculatorDisplay {
+    display: block;
+    background-color: black;
+    width: 250px;
+    height: 50px;
+    color: white;
+    text-align: end;
+}
