@@ -1,1 +1,17 @@
 /* All styles for your Card Components live here */
+
+.cardContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: right;
+    align-items: baseline;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+img {
+   height: 100%;
+   width: 100%;
+}

@@ -1,1 +1,24 @@
 /* All styles for your header Components live here */
+
+.Header {
+    display: flex;
+    flex-direction: row;
+}
+
+.headerTitle {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 55%;
+}
+
+.headerContent {
+    display: block;
+}
+
+#logo {
+    margin-right: 3%;
+    height: 50px;
+    width: 50px;
+}
