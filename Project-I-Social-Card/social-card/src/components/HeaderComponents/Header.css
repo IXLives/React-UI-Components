@@ -3,23 +3,33 @@
 .Header {
     display: flex;
     flex-direction: row;
+    width: 100%;
+}
+
+.innerHeader {
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .headerTitle {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
     align-items: center;
-    width: 55%;
 }
 
-.headerContent {
-    display: block;
-    margin-left: 4%;
+h3 {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: grey;
+}
+
+time {
+    color: grey;
 }
 
 #logo {
-    margin-right: 3%;
-    height: 50px;
-    width: 50px;
+    width: 20%;
+    height: auto;
+    margin: 5px;
 }
