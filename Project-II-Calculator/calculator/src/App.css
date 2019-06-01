@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 456px;
+    height: 598px;
+}
