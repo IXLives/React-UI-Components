@@ -1,41 +1,52 @@
+button {
+    border: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
 .buttonContainer {
-    width: 250px;
+    width: 100%;
+    height: 500px;
     display: flex;
-    flex-direction: row;
-}
-
-.topBottom {
-    width: 85%;
-    display: flex;
-    flex-direction: column;
-}
-
-.topBottom button {
-    background-color: white;
-    color: black;
+    flex-flow: row nowrap;
+    border: 1px solid grey;
+    box-sizing: border-box;
 }
 
 .numbers {
     display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.numbers button {
-    width: 33%;
+    flex-flow: row wrap;
+    width: 80%;
+    height: auto;
     background-color: white;
-    color: black;
+    font-size: 16px;
 }
 
-.actionButtons {
+.actions {
     display: flex;
-    flex-direction: column;
-    width: 15%;
+    flex-flow: column nowrap;
+    width: 21%;
+    height: auto;
 }
 
-.actionButtons button {
+.big {
+    width: 100%;
+    background-color: white;
+    border: 1px solid grey;
+    font-size: 32px;
+}
+
+.num {
+    width: 33.3333%;
+    background-color: white;
+    border: 1px solid grey;
+    font-size: 20px;
+}
+
+.action {
     background-color: red;
     color: white;
+    font-size: 32px;
+    height: 20%;
+    border: 1px solid grey;
 }
